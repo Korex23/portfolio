@@ -40,7 +40,15 @@ h1 {
   font-size: 60px;
 }
 .abouttext {
-  /* transform: translateX(200px); */
+  /*
+   transform: translateX(200px); */
+}
+.stack {
+  transform: translateX(100px);
+  margin-top: 50px;
+}
+.serve {
+  transform: translateX(40px);
 }
 @media screen and (max-width: 992px) {
   * {
@@ -72,5 +80,15 @@ h1 {
   }
   .header {
     font-size: 40px;
+  }
+  .navbar-nav {
+    margin-top: 50px !important;
+  }
+  .stack {
+    transform: translateX(0);
+  }
+
+  .serve {
+    transform: translateX(0);
   }
 }
